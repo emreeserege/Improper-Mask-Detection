@@ -4,6 +4,7 @@ Correct Mask, incorrect mask , without mask
 # To run the project please following the instructions below:
 ```
 1 - Clone repository using git clone https://github.com/emreeser/Improper-Mask-Detection
+
 ```
 ```
 2 - cd Improper-Mask-Detection
