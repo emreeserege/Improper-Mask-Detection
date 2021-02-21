@@ -2,24 +2,26 @@
 Correct Mask, incorrect mask , without mask
 
 # To run the project please following the instructions below:
+download the project first
 ```
-1 - Clone repository using git clone https://github.com/emreeser/Improper-Mask-Detection
-
+  Clone repository using git clone https://github.com/emreeser/Improper-Mask-Detection
 ```
+  cd into the project folder
 ```
-2 - cd Improper-Mask-Detection
+  cd Improper-Mask-Detection
 ```
+Execute this to install dependencies
 ```
-3 - pip install -r requirements.txt
+  pip install -r requirements.txt
 ```
+And you execute it:
 ```
-4 - python video_improper_mask.py
+  python video_improper_mask.py
 ```
+stop the Improper Mask Detection App
 ```
 If you want to close Improper Mask Detection App, you can press "q" in your keyboard.
 ```
-
-
 
 
 
