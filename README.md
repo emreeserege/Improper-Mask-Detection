@@ -26,6 +26,17 @@ If you want to close Incorrect-Correct-Without Mask Detection App, you can press
 
 
 # Dataset
+
+Total number of images: 3000.
+
+Training set size: 2400 images.
+
+Test set size: 600 images.
+
+Number of classes: 3 (Correct Mask, Incorrect mask(improper) , without mask).
+
+Image size: 1024×1024 pixels.
+
 Can be downloaded separately from https://github.com/cabani/MaskedFace-Net and https://github.com/NVlabs/ffhq-dataset .
 
 
