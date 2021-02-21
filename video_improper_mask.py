@@ -82,10 +82,14 @@ while True:
 			color = (0,0, 255)
 		else:
 			label="----"
-
-		label = "{}: {:.2f}%".format(label, max(correct,incorrect,without) * 100)
-		cv2.putText(original_frame, label, (startX, startY - 10),cv2.FONT_HERSHEY_SIMPLEX, 0.5, color, 2)
+		whitecolor=(255,255, 255)
+		label = "{}{:.2f}%".format(label, max(correct,incorrect,without) * 100)
+		y0, dy=startX, startY - 15
+		for i, line in enumerate(label.split('\n')):
+			cv2.putText(original_frame, line, (startX, dy),cv2.cv2.FONT_HERSHEY_DUPLEX, 0.3, whitecolor)
+			dy=dy+10
 		cv2.rectangle(original_frame, (startX, startY), (endX, endY), color, 2)
+		cv2.rectangle(frame, (startX, startY), (endX, startY-23), color, -2)
     
 
 	cv2.addWeighted(frame, 0.5, original_frame, 0.5 , 0,frame)
