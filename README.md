@@ -20,7 +20,7 @@ And you execute it:
 ```
 stop the Improper Mask Detection App
 ```
-If you want to close Incorrect-Correct-Without Mask Detection App, you can press "q" in your keyboard.
+  If you want to close Incorrect-Correct-Without Mask Detection App, you can press "q" in your keyboard.
 ```
 
 
